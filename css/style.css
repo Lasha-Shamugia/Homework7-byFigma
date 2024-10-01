@@ -228,10 +228,6 @@ h1 {
   position: relative;
 }
 .image {
-  display: flex;
-  width: 386px;
-  height: 532px;
-  position: relative;
   margin: 0px 30px;
 }
 .person-name {
