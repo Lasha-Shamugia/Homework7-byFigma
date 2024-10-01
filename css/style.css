@@ -1,0 +1,259 @@
+/* header */
+
+
+.header-wraper {
+  display: flex;
+  width: 1220px;
+  align-items: center;
+  margin: 0 auto;
+}
+.ul-item {
+  display: flex;
+  width: 601px;
+  justify-content: space-between;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color:#37393F;
+  margin-right: 40px;
+}
+.header-main-element {
+  display: flex;
+  height: 76px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 53px 0px 136px 0px;
+}
+.logo-div {
+  display: flex;
+  margin-right: 195px;
+}
+span {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.5px;
+  color: #6B77E5;
+}
+.White-collar {
+  font-size: 25px;
+  font-weight:900;
+  line-height: 37.5px;
+  color: #37393F;
+  margin-left: 3.98px;
+}
+button {
+  width: 188px;
+  height: 65px;
+  font-family: "cabin";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.87px;
+  background-color: #6B77E5;
+  border: solid 4px #6B77E5;
+  color: #FFFFFF;
+}
+
+
+
+.main-cards {
+  width: 1220px;
+  height: 510px;
+  margin: 0 auto;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 283px;
+  height: 86px;
+  margin: 0 auto;
+}
+.main-p {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #37393F;
+  margin-bottom: 16px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.4px;
+  color: #37393F;
+}
+.cards-div {
+  display: flex;
+  width: 1220px;
+  height: 383px;
+  margin-top: 41px;
+}
+.card {
+  text-align: center;
+  width: 386px;
+  background-color: #F4F4F4;
+  margin-right: 31px;
+  position: relative;
+}
+.active {
+  margin: 0px;
+}
+.card-title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 31.75px;
+  color: #37393F;
+  margin: 58px 0 16px 0;
+}
+.card-text {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26.31px;
+  color: #7D7D7D;
+}
+.Testimonials {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #6B77E5;
+  margin: 37px 0 10px 0;
+}
+.icon-div {
+  width: 72px;
+  height: 72px;
+  background-color: #40DDB6;
+  position: absolute;
+  left: 157px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-icon {
+  display: flex;
+  align-items: center;
+}
+.purple {
+  background-color: #6B77E5;
+}
+
+
+/* main */
+
+
+.image-new {
+  width: 100%;
+  height: 557px;
+}
+.image-wraper-element {
+  position: relative;
+  margin: 60px 0px 130px 0px;
+}
+.text-block-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 511px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.short-video {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  color:#37393F;
+  margin-bottom: 16px;
+}
+.Presentation {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.4px;
+  color:#37393F;
+}
+.collaboratively {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26.31px;
+  color:#37393F;
+  margin: 21px 0px 47px 0;
+}
+.icon-block {
+  width: 64.5px;
+  height: 64.5px;
+  background-color: #6B77E5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* footer */
+
+
+.footer-block {
+  width: 1220px;
+  height: 659px;
+  margin: 0 auto 131px auto;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 348px;
+  height: 86px;
+  margin: 0px auto 41px auto;
+}
+.footer-cards {
+  width: 1220px;
+  height: 532px;
+}
+.card-img {
+  display: flex;
+  width: 386px;
+  height: 532px;
+  position: relative;
+}
+.card-image {
+  display: flex;
+  width: 386px;
+  height: 532px;
+  position: relative;
+  margin: 0px 30px 0px 30px;
+}
+.person-name {
+  width: 341px;
+  height: 114px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+  text-align: center;
+}
+h5 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  color:#37393F;
+  margin: 24px 0 4px 0;
+}
+.profession {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.33px;
+  color: #7D7D7D;
+}
